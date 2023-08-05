@@ -1,0 +1,23 @@
+<!-- question.component.html -->
+<div *ngIf="currentQuestion">
+  <h3>Category: {{ currentCategory }}</h3>
+  <h4>Team: {{ selectedTeam }}</h4> <!-- Display the current team -->
+  <h4>Correct Answers: {{ correctAnswers }}</h4> <!-- Display the correct answers -->
+  <p>Question: {{ currentQuestion.question }}</p>
+  <div class="answer-options">
+    <button
+      *ngFor="let option of currentQuestion.options"
+      class="answer-button"
+      (click)="checkAnswer(option)"
+    >
+      {{ option }}
+    </button>
+  </div>
+</div>
+
+<div class="popup" *ngIf="showPopup">
+  <div class="popup-content">
+    <p>{{ popupMessage }}</p>
+    <button (click)="resetGame()">Restart</button>
+  </div>
+</div>

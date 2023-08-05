@@ -1,0 +1,30 @@
+<!-- game.component.html -->
+<div>
+  <app-team-selector
+    *ngIf="!gameStarted"
+    (teamSelected)="selectTeam($event)"
+  ></app-team-selector>
+  <app-category-selector
+    *ngIf="!gameStarted"
+    (categorySelected)="selectCategory($event)"
+  ></app-category-selector>
+
+  <div *ngIf="selectedTeam && selectedCategory && !gameStarted">
+    <button class="start-game-button" (click)="startGame()">Start Game</button>
+  </div>
+
+  <div class="popup" *ngIf="showPopup">
+    <p>{{ popupMessage }}</p>
+    <button (click)="resetGame()">Restart</button> <!-- Add Restart button -->
+  </div>
+
+  <app-question
+    [currentQuestion]="currentQuestion"
+    [selectedTeam]="selectedTeam"
+    [currentCategory]="selectedCategory"
+    [correctAnswers]="correctAnswers"
+    *ngIf="gameStarted && !showPopup"
+    (nextQuestion)="nextQuestion()"
+    (resetGameEmitter)="resetGame()"
+  ></app-question>
+</div>

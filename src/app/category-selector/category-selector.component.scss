@@ -1,0 +1,72 @@
+/* category-selector.component.scss */
+.category-container {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+.category-button {
+    margin: 3px;
+    font-family: 'Waltograph';
+    src: url('../../assets/fonts/waltographUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #ffc0cb;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #ff69b4;
+    }
+    &.canet-button {
+        background-color: rgb(204, 0, 255);
+        border: 2px solid #ffc0cb;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &:hover {
+        background-color: #ff69b4;
+        }
+    }
+    
+    &.sonia-button {
+        background-color: yellow;
+        border: 2px solid #ffd700;
+        color: black;
+        font-size: 18px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &:hover {
+        background-color: #ffcc00;
+        }
+    }
+    
+    &.media-button {
+        background-color: red;
+        border: 2px solid #ff0000;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        &:hover {
+        background-color: #ff33c2;
+        }
+    }
+}
+  

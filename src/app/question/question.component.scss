@@ -1,0 +1,99 @@
+/* question.component.scss */
+
+.question-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 70rem;
+  min-height: 30rem;
+}
+
+.question-category {
+  font-size: 24px;
+  color: #00bfff;
+}
+
+.question-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.answer-button {
+  background-color: #ffc0cb;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: #ff69b4;
+  }
+}
+
+.answer-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    margin-top: 10px;
+    background-color: #00bfff; /* Blue color */
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    &:hover {
+      background-color: #87cefa; /* Light blue color */
+    }
+  }
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    z-index: 1000; /* Ensure the popup is on top of other content */
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  
+    p {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #333;
+      font-family: 'Waltograph', sans-serif; /* Use the Disney font */
+    }
+  
+    button {
+      background-color: #ff1493;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #ff69b4;
+      }
+    }
+  }
