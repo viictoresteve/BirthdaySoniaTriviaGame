@@ -28,16 +28,21 @@
       }
   }
   .start-game-button {
-    background-color: #ff69b4; /* Pink color */
-    border: none;
+    font-family: 'Waltograph';
+    src: url('../../assets/fonts/waltographUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    width: 100%;
+    background-color: #ff1493; /* Disney pink */
     color: white;
-    font-size: 20px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s;
+
     &:hover {
-      background-color: #ff1493; /* Darker pink color */
+      background-color: #ff69b4; /* Lighter pink on hover */
     }
   }

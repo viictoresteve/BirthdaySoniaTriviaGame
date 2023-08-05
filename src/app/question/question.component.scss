@@ -7,6 +7,8 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   min-width: 70rem;
   min-height: 30rem;
+  width: 100%;
+  min-width: 100%;
 }
 
 .question-category {
@@ -21,6 +23,10 @@
 
 .answer-button {
   background-color: #ffc0cb;
+  font-family: 'Waltograph';
+  src: url('../../assets/fonts/waltographUI.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
   border: none;
   color: white;
   font-size: 16px;
@@ -33,12 +39,34 @@
     background-color: #ff69b4;
   }
 }
+.skip-button-container {
+  display: flex;
+  justify-content: center;
+}
+.skip-button {
+  margin-top: 10px;
+    background-color: grey; /* Blue color */
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-self: center !important;
+    &:hover {
+      background-color: red; /* Light blue color */
+    }
+}
 
 .answer-options {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
+  grid-gap: 10px; /* Add gap between the buttons */
   button {
     margin-top: 10px;
     background-color: #00bfff; /* Blue color */
@@ -67,7 +95,23 @@
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
     z-index: 1000; /* Ensure the popup is on top of other content */
   }
+  .info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px; /* Add margin to the top */
+    font-size: 25px;
   
+    h3,
+    h4 {
+      margin: 10px 0; /* Add margin to the top and bottom */
+    }
+  }
+  .question-content-container {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
   .popup-content {
     background-color: #fff;
     padding: 20px;

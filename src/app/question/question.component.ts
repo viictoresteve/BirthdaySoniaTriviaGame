@@ -22,7 +22,7 @@ export class QuestionComponent {
     if (this.currentQuestion) {
       if (selectedOption !== this.currentQuestion.answer) {
         this.showPopup = true;
-        this.popupMessage = `Incorrect! ${this.selectedTeam} has answered ${this.correctAnswers} questions correctly.`;
+        this.popupMessage = `INCORRECTE! ${this.selectedTeam} HA RESPOST ${this.correctAnswers} PREGUNTES BÉ.`;
       } else {
         this.onNextQuestion();
         this.correctAnswers++;

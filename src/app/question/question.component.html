@@ -1,9 +1,16 @@
 <!-- question.component.html -->
 <div *ngIf="currentQuestion">
-  <h3>Category: {{ currentCategory }}</h3>
-  <h4>Team: {{ selectedTeam }}</h4> <!-- Display the current team -->
-  <h4>Correct Answers: {{ correctAnswers }}</h4> <!-- Display the correct answers -->
-  <p>Question: {{ currentQuestion.question }}</p>
+  <div class="info-container">
+    <h3>Category: {{ currentCategory }}</h3>
+    <h4>Team: {{ selectedTeam }}</h4>
+    <!-- Display the current team -->
+
+    <h4>Correct Answers: {{ correctAnswers }}</h4>
+  </div>
+  <!-- Display the correct answers -->
+  <div class="question-content-container">
+    <p>{{ currentQuestion.question }}</p>
+  </div>
   <div class="answer-options">
     <button
       *ngFor="let option of currentQuestion.options"
@@ -14,10 +21,19 @@
     </button>
   </div>
 </div>
+<div class="skip-button-container">
+  <!-- Show the Skip Question button only if skipCounter > 0 -->
+  <button
+    class="skip-button"
+    (click)="onNextQuestion()"
+  >
+    Skip Question (SOLO 1 USO)
+  </button>
+</div>
 
 <div class="popup" *ngIf="showPopup">
   <div class="popup-content">
     <p>{{ popupMessage }}</p>
-    <button (click)="resetGame()">Restart</button>
+    <button (click)="resetGame()">RESETEA!</button>
   </div>
 </div>

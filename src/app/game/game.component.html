@@ -1,5 +1,9 @@
 <!-- game.component.html -->
 <div>
+  <!-- {{questions.length}}
+  {{canetQuestions}}
+  {{soniaQuestions}}
+  {{mediaQuestions}} -->
   <app-team-selector
     *ngIf="!gameStarted"
     (teamSelected)="selectTeam($event)"
@@ -10,7 +14,9 @@
   ></app-category-selector>
 
   <div *ngIf="selectedTeam && selectedCategory && !gameStarted">
-    <button class="start-game-button" (click)="startGame()">Start Game</button>
+    <hr class="separator" />
+
+    <button class="start-game-button" (click)="startGame()">COMENCAR LA PARTIDA!</button>
   </div>
 
   <div class="popup" *ngIf="showPopup">
