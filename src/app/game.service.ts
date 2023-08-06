@@ -300,7 +300,7 @@ export const questions: Question[] = [
   {
     question: 'Quin era el component de One Direction que més li agradava?',
     options: ['Harry Styles', 'Liam Payne', 'Zayn Malik', 'Miky Stiki'],
-    answer: 'Niall Horan',
+    answer: 'Liam Payne',
     category: 'SONIA',
   },
   {
@@ -311,18 +311,18 @@ export const questions: Question[] = [
       'El Señor de los Anillos',
       'Las Cronicas de Narnia',
     ],
-    answer: 'A piano',
+    answer: 'Harry Potter',
     category: 'SONIA',
   },
   {
     question: "Com li deia a l'acció de caure's?",
     options: ['Me cango', 'Me caco', 'Me cago', 'Mecano - Hijo de la Luna'],
-    answer: 'A piano',
+    answer: 'Me caco',
     category: 'SONIA',
   },
   {
     question: 'Companya de futbol back in the day?',
-    options: ['Helena Roig', 'Estel Palet', 'Alicia ', 'Paula Ramón'],
+    options: ['Helena Roig', 'Estel Palet', 'Alicia', 'Paula Ramón'],
     answer: 'Helena Roig',
     category: 'SONIA',
   },
