@@ -11,3 +11,21 @@ button {
   font-style: normal;
   font-size: 35px !important;
 }
+/* Default styles for larger screens */
+/* ... */
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Adjust font sizes and layout for tablets */
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+  /* Adjust font sizes and layout for phones */
+  body {
+    font-size: 14px;
+  }
+}

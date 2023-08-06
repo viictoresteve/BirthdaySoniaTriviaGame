@@ -84,7 +84,7 @@ export const questions: Question[] = [
     category: 'CANET',
   },
   {
-    question: 'Quina frase mítica li non dit a en papiu?',
+    question: 'Quina frase mítica li han dit a en papiu?',
     options: [
       'El meu pare no és metge',
       'Pau, ho has fet molt bé tete',

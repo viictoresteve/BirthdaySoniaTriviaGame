@@ -1,10 +1,12 @@
 <!-- question.component.html -->
 <div *ngIf="currentQuestion">
   <div class="info-container">
-    <h4>Category: {{ currentCategory }} ----  </h4>
-    <h4>- Team: {{ selectedTeam }} ----  </h4>
-    <h4>- Correct Answers: {{ correctAnswers }} </h4>
+    <h4> {{ currentCategory }}   </h4>
+    <h4> {{ selectedTeam }}   </h4>
   </div>
+  <div class="correct-answer-container">
+  <h4>ENCERTS: {{ correctAnswers }}/5 </h4>
+</div>
   <!-- Display the correct answers -->
   <div class="question-content-container">
     <p>{{ currentQuestion.question }}</p>
