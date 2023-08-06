@@ -337,4 +337,115 @@ export const questions: Question[] = [
     answer: 'One Piece',
     category: 'SONIA',
   },
+  {
+    "question": "Amb quin nom es dirigeix més la Sònia a l'Àlex?",
+    "options": [
+      "Alexander",
+      "Pololo",
+      "Pichín",
+      "No ho fa de ninguna manera."
+    ],
+    "answer": "Pololo",
+    "category": "SONIA"
+  },
+  {
+    "question": "Què és el que més ràbia li fa a la Sònia d'ella mateixa?",
+    "options": [
+      "Ser miope",
+      "Que no sap dibuixar per molt que ho intenti",
+      "Que no li agrada parlar en públic",
+      "Que perd/trenca coses cada dos per tres"
+    ],
+    "answer": "Que perd/trenca coses cada dos per tres",
+    "category": "SONIA"
+  },
+  {
+    "question": "Quina de les pelis que li ha ensenyat l'Àlex a la Sònia li ha agradat menys?",
+    "options": [
+      "Brazil",
+      "Birdman",
+      "Whiplash",
+      "Payasos Asesinos del Espacio Exterior"
+    ],
+    "answer": "Brazil",
+    "category": "SONIA"
+  },
+  {
+    "question": "Amb qui va muntar la Sònia un canal de covers a YouTube?",
+    "options": [
+      "Amb l'Àlex",
+      "Amb l'Helena",
+      "Amb l'Alícia",
+      "Cap de les anteriors és correcte"
+    ],
+    "answer": "Cap de les anteriors és correcte",
+    "category": "SONIA"
+  },
+  {
+    "question": "Quin era el \"rage game\" que obsessionava a la Sònia de petita?",
+    "options": [
+      "El Rey León de la Game Boy",
+      "El Pingu del PC",
+      "El Rayman de la Play 1",
+      "Un joc del Sonic que donaven al McDonalds"
+    ],
+    "answer": "El Pingu del PC",
+    "category": "SONIA"
+  },
+  {
+    "question": "Per quin motiu va començar a portar ulleres la Sònia?",
+    "options": [
+      "Per estètica",
+      "Miopia",
+      "Estigmatisme",
+      "Wtf, la Sònia no porta ulleres"
+    ],
+    "answer": "Per estètica",
+    "category": "SONIA"
+  },
+  {
+    "question": "Quina d'aquestes sèries li agrada més a la Sònia?",
+    "options": [
+      "The Office",
+      "Brooklyn Nine Nine",
+      "Euphoria",
+      "El Rovelló"
+    ],
+    "answer": "Brooklyn Nine Nine",
+    "category": "SONIA"
+  },
+  {
+    "question": "Com es deia l'elefant de peluix que la Sònia tenia a la seva habitació",
+    "options": [
+      "Lola",
+      "Grisita",
+      "Lucy",
+      "Gerard Pompido"
+    ],
+    "answer": "Lola",
+    "category": "SONIA"
+  },
+  {
+    "question": "Quants anys tenien l'Àlex i la Sònia quan van començar a sortir?",
+    "options": [
+      "14 la Sònia i 15 l'Alex",
+      "15 la Sònia i 16 l'Alex",
+      "14 la Sònia i 16 l'Alex",
+      "15 la Sònia i 15 l'Alex"
+    ],
+    "answer": "15 la Sònia i 16 l'Alex",
+    "category": "SONIA"
+  },
+  {
+    "question": "Quin d'aquests llibres NO s'ha llegit la Sònia?",
+    "options": [
+      "Los Juegos del Hambre 3: Sinsajo",
+      "El Señor de los Anillos",
+      "Manual de una auténtica mamarracha",
+      "La Vaca Púrpura"
+    ],
+    "answer": "La Vaca Púrpura",
+    "category": "SONIA"
+  }
+  
 ];
