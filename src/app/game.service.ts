@@ -322,7 +322,7 @@ export const questions: Question[] = [
   },
   {
     question: 'Companya de futbol back in the day?',
-    options: ['Helena Roig', 'Estel Palet', 'Alicia', 'Paula Ramón'],
+    options: ['Helena Roig', 'Estel Palet', 'Alicia Yelo', 'Paula Ramón'],
     answer: 'Helena Roig',
     category: 'SONIA',
   },
