@@ -299,7 +299,7 @@ export const questions: Question[] = [
   },
   {
     question: 'Quin era el component de One Direction que més li agradava?',
-    options: ['Harry Styles', 'Niall Horan', 'Zayn Malik', 'Miky Triki'],
+    options: ['Harry Styles', 'Liam Payne', 'Zayn Malik', 'Miky Stiki'],
     answer: 'Niall Horan',
     category: 'SONIA',
   },
